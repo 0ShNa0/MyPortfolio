@@ -25,16 +25,16 @@ function App() {
         sx={{ typography: 'Montserrat',
         justifyContent:'center'}}>
          <Tab label="About"  sx={{ textTransform: 'none',
-          fontSize: '25px' ,  textColor:"black" ,
+          fontSize:{sx:'14px',md:'20px',lg:'25px'} ,  textColor:"black" ,
           fontFamily:'Montserrat'}}/>
          <Tab label="Experiences"  sx={{ textTransform: 'none' ,textColor:"black" ,
-          fontSize: '25px',
+          fontSize:{sx:'14px',md:'20px',lg:'25px'},
           fontFamily:'Montserrat'}}/>
          <Tab label="Projects"  sx={{ textTransform: 'none',textColor:"black" ,
-          fontSize: '25px',
+          fontSize:{sx:'14px',md:'20px',lg:'25px'},
           fontFamily:'Montserrat' }}/>
            <Tab label="Contact"  sx={{ textTransform: 'none',textColor:"black" ,
-          fontSize: '25px',
+          fontSize:{sx:'14px',md:'20px',lg:'25px'},
           fontFamily:'Montserrat' }}/>
        </Tabs>
      </AppBar>
